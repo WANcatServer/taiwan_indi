@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_pikeman">
+  <Identity>
+    <Civ>tw_indi</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Hospital Guard</GenericName>
+    <SpecificName>Draug Latipsoh</SpecificName>
+    <Icon>units/ptol_champion_infantry.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/ptolemies/infantry_pikeman_c.xml</Actor>
+  </VisualActor>
+</Entity>

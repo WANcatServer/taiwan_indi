@@ -54,7 +54,7 @@
   <Cost>
     <BuildTime>250</BuildTime>
     <Resources>
-      <stone>300</stone>
+      <stone>500</stone>
       <wood>300</wood>
     </Resources>
   </Cost>
@@ -90,8 +90,14 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_support_healer_b
+      units/{civ}_support_healer_e
+      units/tw_indi_champion_infantry_pikeman
+      units/tw_indi_champion_infantry_sword
+      units/tw_indi_hero_camachat_maloe
     </Entities>
+    <Technologies datatype="tokens">
+      attack_soldiers_will
+    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

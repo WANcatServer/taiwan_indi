@@ -47,7 +47,6 @@
     </Entities>
     <Technologies datatype="tokens">
       tw_indi/unlock_marine_training
-      attack_soldiers_will
     </Technologies>
   </ProductionQueue>
   <Sound>
