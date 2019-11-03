@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_dock">
+  <Cost>
+    <PopulationBonus>2</PopulationBonus>
+  </Cost>
+  <Footprint>
+    <Square width="12.0" depth="24.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_celt_dock</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>tw_indi</Civ>
+    <SpecificName>Vanwa</SpecificName>
+  </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/tw_indi_champion_tao
+    </Entities>
+  </ProductionQueue>
+  <Obstruction>
+    <Static width="10.0" depth="22.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/celts/dock.xml</Actor>
+    <FoundationActor>structures/fndn_celt_dock.xml</FoundationActor>
+  </VisualActor>
+</Entity>

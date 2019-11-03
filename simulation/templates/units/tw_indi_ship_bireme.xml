@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_bireme">
+  <Identity>
+    <Civ>tw_indi</Civ>
+    <SpecificName>Yudhpot</SpecificName>
+    <Icon>units/maur_ship_bireme.png</Icon>
+  </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/tw_indi_champion_tao
+    </Entities>
+    <TechCostMultiplier>
+      <food>1.0</food>
+      <wood>1.0</wood>
+      <stone>1.0</stone>
+      <metal>1.0</metal>
+      <time>1.0</time>
+    </TechCostMultiplier>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/mauryans/bireme.xml</Actor>
+  </VisualActor>
+</Entity>

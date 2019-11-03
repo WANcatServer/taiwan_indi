@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman_hoplite">
+  <Auras datatype="tokens">
+    units/heroes/tw_indi_hero_kamachat_aslamie
+  </Auras>
+  <Identity>
+    <Civ>tw_indi</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Kamachat Aslamie</GenericName>
+    <SpecificName>Kamachat Aslamie</SpecificName>
+    <Tooltip></Tooltip>
+    <Icon>units/hele_hero_alexander.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/spartans/hero_infantry_spearman_leonidas.xml</Actor>
+  </VisualActor>
+</Entity>

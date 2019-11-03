@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Identity>
+    <Civ>tw_indi</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Taiwan Indigeous People Marine</GenericName>
+    <SpecificName>Tao</SpecificName>
+    <Icon>units/athen_champion_marine.png</Icon>
+    <RequiredTechnology>tw_indi/unlock_marine_training</RequiredTechnology>
+  </Identity>
+  <VisualActor>
+    <Actor>units/athenians/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

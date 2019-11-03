@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Cost>
+    <BuildTime>240</BuildTime>
+    <Resources>
+      <wood>500</wood>
+      <stone>500</stone>
+      <metal>500</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="15.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>10</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>tw_indi</Civ>
+    <GenericName>Military Mess Hall</GenericName>
+    <SpecificName>Dentang</SpecificName>
+    <Classes datatype="tokens">Syssiton</Classes>
+    <Tooltip>Train Taiwan heroes and Special champions.</Tooltip>
+    <Icon>structures/syssition.png</Icon>
+  </Identity>
+  <Loot>
+    <wood>0</wood>
+    <stone>50</stone>
+    <metal>50</metal>
+  </Loot>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/tw_indi_hero_mona_rudo
+      units/tw_indi_hero_kamachat_aslamie
+      units/tw_indi_champion_swordsman
+      units/tw_indi_champion_infantry_spear
+      units/tw_indi_thureophoros
+      units/tw_indi_champion_ranged
+    </Entities>
+    <Technologies datatype="tokens">
+      tw_indi/unlock_marine_training
+      attack_soldiers_will
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_barracks.xml</select>
+      <constructed>interface/complete/building/complete_barracks.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>structures/britons/civic_centre.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>
+

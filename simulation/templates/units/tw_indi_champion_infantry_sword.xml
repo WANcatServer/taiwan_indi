@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Attack>
+    <Melee>
+      <Hack op="add">0.5</Hack>
+    </Melee>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      structures/tw_indi_military_colony
+      structures/{civ}_dentang
+      structures/tw_indi_wallset_siege
+      structures/tw_indi_military_hospital
+      </Entities>
+  </Builder>
+  <Cost>
+    <Resources>
+      <food op="add">-10.0</food>
+      <metal op="add">+20.0</metal>
+    </Resources>
+    <BuildTime op="add">+5</BuildTime>
+  </Cost>
+  <Identity>
+    <Civ>tw_indi</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Skiritai Commando</GenericName>
+    <SpecificName>Ékdromos Skirítēs</SpecificName>
+    <Rank>Elite</Rank>
+    <Icon>units/spart_champion_infantry_sword.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/spartans/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

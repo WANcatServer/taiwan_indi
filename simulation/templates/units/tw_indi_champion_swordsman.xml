@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+	<Cost>
+		<Resources>
+			<stone>100</stone>
+			<metal>0</metal>
+		</Resources>
+	</Cost>
+	<Attack>
+		<Melee>
+			<Hack>0.0</Hack>
+			<Pierce>0.0</Pierce>
+			<Crush>10.5</Crush>
+		</Melee>
+	</Attack>
+	<Identity>
+		<Civ>tw_indi</Civ>
+		<GenericName>Heavy Infantry</GenericName>
+		<SpecificName>Taiwan Indigenous People Swordsman</SpecificName>
+		<History>They use stone sword</History>
+		<Icon>units/rome_champion_infantry.png</Icon>
+		<RequiredTechnology>phase_town</RequiredTechnology>
+		<SelectionGroupName>units/tw_indi_champion_swordsman</SelectionGroupName>
+	</Identity>
+	<UnitMotion>
+		<WalkSpeed op="mul">1.1</WalkSpeed>
+		<Run>
+			<Speed op="mul">1.1</Speed>
+		</Run>
+	</UnitMotion>
+	<VisualActor>
+		<Actor>units/romans/infantry_swordsman_c.xml</Actor>
+	</VisualActor>
+</Entity>

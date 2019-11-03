@@ -1,0 +1,121 @@
+{
+	"Code": "tw_indi",
+	"Culture": "",
+	"Name": "Taiwan Indigenous People",
+	"Emblem": "session/portraits/emblems/emblem_tw_indi.png",
+	"History": "They are Taiwan Indigenous Peoples from Taiwan Island.",
+	"Music":[
+			{"File":"Celtic_Pride.ogg", "Type":"peace"},
+			{"File":"Cisalpine_Gaul.ogg", "Type":"peace"},
+			{"File":"Harvest_Festival.ogg", "Type":"peace"},
+			{"File":"Water's_Edge.ogg", "Type":"peace"},
+			{"File":"Sunrise.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name": "Taiwan Indigenous People",
+			"Description": "They are Taiwan Indigenous Peoples from Taiwan Island.",
+			"Technologies":
+			[
+				
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Mona Rudo",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "He was one of the greatest hero in Taiwan History."
+				},
+				{
+					"Name": "Kamachat Aslamie",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "He was the king of the Kingdom of Middag."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name": "Strong Hunter",
+			"History": "Taiwan Indigeous People are good hunters.",
+			"Description": "Enhanced meat gathering speed of javelinists."
+		}
+	],
+	"TeamBonuses":
+	[
+		
+	],
+	"Structures":
+	[
+		{
+			"Name": "Shaota",
+			"Class": "",
+			"Emblem": "",
+			"History": "Taiwan Indigeous People Put thier resource in outposts.",
+			"Description": "Outposts can be used to store resouces.",
+			"Requirements": "",
+			"Phase": "",
+			"Special": ""
+		}
+	],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/gaul_wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/tw_indi_civil_centre"
+		},
+		{
+			"Template": "units/tw_indi_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/tw_indi_infantry_spearman_b",
+			"Count": 3
+		},
+		{
+			"Template": "units/tw_indi_infantry_javelinist_b",
+			"Count": 3
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line"
+	],
+	"AINames":
+	[
+		"Viridomarus",
+		"Brennus",
+		"Cativolcus",
+		"Cingetorix",
+		"Vercingetorix",
+		"Divico",
+		"Ambiorix",
+		"Liscus",
+		"Valetiacus",
+		"Viridovix"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/structures/default_house_5": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}

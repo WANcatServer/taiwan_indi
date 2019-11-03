@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Auras datatype="tokens">
+    structures/military_hospital
+  </Auras>
+  <Armour>
+    <Hack op="add">3.0</Hack>
+    <Pierce op="add">3.0</Pierce>
+    <Crush op="add">3.0</Crush>
+    <Foundation>
+      <Hack>1.0</Hack>
+      <Pierce>5.0</Pierce>
+      <Crush>1.0</Crush>
+    </Foundation>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <Hack>0.0</Hack>
+      <Pierce>27.0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>40.0</MaxRange>
+      <MinRange>0.0</MinRange>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <Gravity>9.81</Gravity>
+      <PrepareTime>1200</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+      <Spread>1.5</Spread>
+      <Delay>0</Delay>
+      <RangeOverlay>
+        <LineTexture>outline_border.png</LineTexture>
+        <LineTextureMask>outline_border_mask.png</LineTextureMask>
+        <LineThickness>0.175</LineThickness>
+      </RangeOverlay>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>1</DefaultArrowCount>
+    <MaxArrowCount>20</MaxArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+  </BuildingAI>
+  <BuildRestrictions>
+    <Territory>own neutral enemy</Territory>
+    <Category>MillitaryHospital</Category>
+    <Distance>
+      <FromClass>MillitaryHospital</FromClass>
+      <MinDistance>48</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>3000</CapturePoints>
+    <RegenRate>10.0</RegenRate>
+    <GarrisonRegenRate>3.0</GarrisonRegenRate>
+  </Capturable>
+  <Cost>
+    <BuildTime>250</BuildTime>
+    <Resources>
+      <stone>300</stone>
+      <wood>300</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="40.0" depth="40.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>80</Max>
+    <List datatype="tokens">Support Infantry Cavalry Siege</List>
+    <BuffHeal>2</BuffHeal>
+    <LoadingRange>6</LoadingRange>
+  </GarrisonHolder>
+  <Health>
+    <Max>2500</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_rome_sb</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>tw_indi</Civ>
+    <GenericName>Military Hospital</GenericName>
+    <SpecificName>Benuang</SpecificName>
+    <Classes datatype="tokens">MillitaryHospital</Classes>
+    <Icon>structures/roman_camp.png</Icon>
+    <Tooltip>Heal garrisoned units slowly; train healthers.</Tooltip>
+  </Identity>
+  <Loot>
+    <xp>100</xp>
+    <wood>100</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="36.0" depth="36.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_support_healer_b
+    </Entities>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_broch.xml</select>
+      <constructed>interface/complete/building/complete_broch.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <TerritoryDecay>
+    <DecayRate>37.5</DecayRate>
+  </TerritoryDecay>
+  <TerritoryInfluence disable=""/>
+  <VisualActor>
+    <Actor>structures/romans/camp.xml</Actor>
+    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>29.5</Length>
+    <Indent>8</Indent>
+  </WallPiece>
+</Entity>

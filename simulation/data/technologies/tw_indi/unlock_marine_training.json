@@ -1,0 +1,14 @@
+{
+	"genericName": "Unlock Marines Training",
+	"specificName": {
+		"tw_indi": "The Taos"
+	},
+	"description": "Train the Marines from Docks and Light warships",
+	"cost": { "food": 0, "wood": 0, "stone": 1000, "metal": 1000 },
+	"requirements": { "all": [{ "tech": "phase_city" }, { "any": [{ "civ": "tw_indi"}]}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "helmet_corinthian_crest.png",
+	"researchTime": 90,
+	"tooltip": "Unlock the ability to train Marines at Docks and Light warships.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
