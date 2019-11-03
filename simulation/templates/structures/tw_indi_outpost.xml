@@ -5,7 +5,7 @@
     <SpecificName>Shaota</SpecificName>
   </Identity>
   <ResourceDropsite>
-    <Types>stone metal</Types>
+    <Types>food wood</Types>
     <Sharable>true</Sharable>
   </ResourceDropsite>
   <VisualActor>
